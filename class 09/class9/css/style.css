@@ -1,0 +1,28 @@
+
+h3{
+    color:#4665b8
+}
+
+.b1st{
+    color: red;
+}
+
+/* .israel{
+    color: rgb(6, 200, 248);
+} */
+
+/* b{
+    color: red;
+} */
+
+a:active {
+    color: red;
+}
+
+a:-webkit-any-link {
+    color: rgb(184, 33, 204);
+}
+
+a:hover{
+    color: blue;
+}
