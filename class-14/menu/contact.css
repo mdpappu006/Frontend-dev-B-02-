@@ -1,0 +1,39 @@
+
+.navmenu {
+    margin-top: 30px;
+    background: #009688;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.navmenu ul{
+    margin: 0;
+} 
+
+
+.navmenu ul li {
+    padding: 15px 0;
+    list-style: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.navmenu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.navmenu ul li a i{
+    padding-right: 15px;
+}
+
+
+.navmenu ul li a:hover{
+    color: #1ded0b;
+    transition: 0.2s ease-in-out;
+}
+
