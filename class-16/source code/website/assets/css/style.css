@@ -1,0 +1,93 @@
+/* Start Container Area */
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* End Container Area */
+
+
+
+/* Start Header Area */
+
+.header {
+    overflow: hidden;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-slider img{
+    width: 100%;
+}
+/* End Header Area */
+
+
+/* Menu Section */
+
+.menuContent {
+    display: flex;
+}
+
+.menu-section {
+    width: 25%;
+    background: #F1F1F1;
+    padding-top: 35px;
+    border-right: 2px solid #ddd;
+    padding-left: 25px;
+}
+
+.menu-section ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-section ul li{
+    padding: 15px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.menu-section ul li a {
+    color: rgb(0 0 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* End Menu Section */
+
+
+
+/* Start content Section */
+
+.content-section{
+    width: 75%;
+}
+
+.content-section {
+    background: #F1F1F1;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+.content-section h2 {
+    font-size: 30px;
+}
+
+/* Footer */
+
+.footer {
+    background: #F1F1F1;
+    padding: 11px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.footer p{
+    font-size: 18px ;
+    font-weight: 500;
+}

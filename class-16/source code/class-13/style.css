@@ -1,0 +1,87 @@
+
+
+.font2{
+    font-size: 90px;
+}
+
+.Fonts{
+    font-size: 80px;
+    text-align: center;
+    color: #2a2a2a;
+    font-family: 'Vina Sans', sans-serif;
+}
+
+
+.fl-g{
+    color: #4285F4;
+}
+
+
+.fl-0{
+    color: #EA4335;
+}
+
+.fl2-0{
+    color: #FBBC05;
+}
+
+h2{
+    color:#fff;
+    text-align: center;
+    background: #127292;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h3{
+    color:#EA4335;    
+}
+
+.link1{
+    color: rgb(248, 6, 236);
+}
+
+.link1, a{
+    text-decoration: none
+}
+
+a:hover{
+    color: rgb(41, 38, 40);
+}
+
+.kaba {
+    text-align: center;
+    padding-top: 56px;
+}
+
+.kaba img{
+    border-radius: 10px;
+}
+
+/* 
+.israel:hover{
+    color: rgb(248, 6, 151);
+} */
+
+
+
+
+/* Menu Css Start */
+
+
+ul{
+    list-style: none
+}
+
+ul li{
+    padding: 8px;
+}
+
+
+/* Menu Css End */
