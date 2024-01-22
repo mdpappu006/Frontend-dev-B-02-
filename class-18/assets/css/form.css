@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background: #EBF5FF;
+}
+
+.slider img{
+    width: 100%;
+}
+
+.student-form{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.student-form h2{
+    font-size: 40px;
+    color: #3153C9;
+}
+
+form .name {
+    display: flex;
+    justify-content: space-between;
+}
+
+form .fname, form .lname{
+    width: 48%;
+}
+
+form label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.gender label{
+    display: inline-block;
+}
+
+.fname input, .lname input, .firstname input, .text-area textarea {
+    width: 100%;
+    border: 1px solid #727272;
+    padding: 10px 0;
+    border-radius: 5px;
+    background: transparent;
+    padding-left: 15px;
+}
+
+.firstname {
+    margin: 25px 0;
+}
+
+.text-area textarea{
+    height: 110px;
+}
+
+.fname input{
+    margin-right: 10px;
+}
+
+.gender b{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.text-area{
+    margin-top: 25px;
+}
+
+.submit-btn{
+    margin-bottom: 50px;
+}
+
+
+.submit-btn input {
+    margin-top: 25px;
+    background: #3153C9;
+    border-radius: 5px;
+    padding: 10px 35px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}

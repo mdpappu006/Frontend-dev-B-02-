@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body>
+    <div class="slider">
+        <img src="assets/img/reg-silder.jpg" alt="reg-silder">
+    </div>
+
+    <div class="student-form">
+        <h2>Student Registration</h2>
+
+        <form action="form.html">
+
+            <div class="name">
+                <div class="fname">
+                    <label for="fstname">First Name:</label>
+                    <input type="text" id="fstname" required>
+                </div>
+    
+                <div class="lname">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" required>
+                </div>
+            </div>
+
+            <div class="firstname">
+                <label for="email">Email: </label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="firstname">
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+            </div>
+
+            <div class="firstname">
+                <label for="username">Username:</label>
+                <input type="text" id="username" aria-readonly="true">
+            </div>
+
+
+            <div class="gender">
+                <b>Gender:</b>
+                <!-- type=text -->
+                <!-- type=radio -->
+                <!-- type=checkbox -->
+                
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label>
+
+                <input type="radio" name="gender" value="others" id="others">
+                <label for="others">Others</label>
+            </div>
+
+            
+            <div class="gender">
+                <b>Religion:</b>
+                <input type="radio" name="religion" value="islam" id="islam">
+                <label for="islam">Islam</label>
+
+                <input type="radio" name="religion" value="hindu" id="hindu">
+                <label for="hindu">Hindu</label>
+
+                <input type="radio" name="religion" value="others" id="other">
+                <label for="other">Others</label>
+                <br><br>
+            </div>
+            
+
+            <b>Department:</b>
+
+            <select name="department"> 
+                <option>CSE</option>
+                <option>EEE</option>
+                <option>CE</option>
+                <option>Arc</option>
+                <option>IPE</option>
+                <option>BSS</option>
+            </select>
+
+
+            <div class="text-area">
+                <label for="comment">Comment</label>
+                <textarea name="" id="comment"></textarea>
+            </div>
+
+            <div class="submit-btn">
+
+                <input type="submit" value="Submit">
+            </div>
+
+
+        </form>
+    </div>
+</body>
+</html>
