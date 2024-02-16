@@ -1,0 +1,281 @@
+/* Form Css Start */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+
+/*Start Left section */
+
+.form-left-section{
+    background: #3CD8C1;
+    width: 60%;
+    padding: 100px 0;
+}
+
+.form-left-wrapper {
+    padding-left: 30%;
+    position: relative;
+}
+
+.form-left-wrapper h2 {
+    color: #9BE6D9;
+    font-size: 50px;
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 10%;
+    bottom: 29%;
+}
+
+form .name{
+    padding-bottom:  20px;
+}
+
+form .name input {
+    background: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    width: 40%;
+    margin-right: 20px;
+}
+
+form .name textarea {
+    background: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    width: 88.3%;
+    height: 110px;
+}
+
+.primary-btn{
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.submitbtn button{
+    background: #fff;
+    border: 1px solid #32D6BE;
+    color: #32D6BE;
+}
+
+
+.submitbtn button:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/*End Left section */
+
+
+
+
+
+/*Start Right section */
+
+.form-right-section {
+    width: 40%;
+    background: #fff;
+    padding: 100px 0;
+    padding-left: 70px;
+}
+
+
+.form-right-section h4{
+    font-size: 30px;
+}
+
+.feature-list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.feature-list ul li {
+    padding: 10px 0;
+}
+
+.feature-list ul li img{
+    padding-right: 10px;
+}
+
+
+.about-us button {
+    background: #32D6BE;
+    color: #fff;
+    margin-top: 40px;
+    padding: 15px 25px;
+    border: 1px solid #32D6BE;
+}
+
+.about-us button:hover{
+    background: transparent;
+    border: 1px solid #32D6BE;
+    color: #32D6BE;
+}
+
+/*End Right section */
+
+
+
+/* Form Css End */
+
+
+
+
+
+
+
+
+
+
+/* Start Responsive Css Code  */
+
+
+/********************************************************/
+/* over devices **********************************/
+/***/ 
+@media only screen and (min-width: 1600px){
+
+
+}
+
+/********************************************************/
+/* xxl devices **********************************/
+/***/   
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+
+
+}
+
+/********************************************************/
+/* xl devices **********************************/
+/***/ 
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+ 
+
+}
+
+
+/********************************************************/
+/* lg devices **********************************/
+/***/  
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+
+
+}
+  
+/********************************************************/
+/* md devices **********************************/
+/********************************************************/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  
+
+}
+  
+
+/********************************************************/
+/* xs devices **********************************/
+/********************************************************/
+@media (max-width: 767px){
+
+    .container {
+        display: block;
+    }
+
+    .form-left-section {
+        width: 100%;
+        padding: 50px 0;
+        padding-top: 10px;
+    }
+
+    .form-left-wrapper {
+        padding-left: 0px;
+        padding: 20px;
+    }
+
+    form .name input {
+        width: 88%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    form .name textarea {
+        width: 100%;
+        height: 80px;
+    }
+
+    .form-left-wrapper form{
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    form .name {
+        padding-bottom: 0px;
+    }
+
+    .submitbtn {
+        margin-top: 20px
+    }
+
+    .form-left-wrapper h2 {
+        font-size: 42px;
+        position: inherit;
+        transform: rotate(0deg);
+        left: 0;
+        bottom: 0;
+        margin-top: 0;
+    }
+
+
+    .form-right-section {
+        width: 100%;
+        padding: 0;
+        padding-left: 0;
+        padding-bottom: 40px;
+    }
+
+    .form-right-section h4 {
+        font-size: 25px;
+        padding-left: 20px;
+    }
+
+    .feature-list{
+        padding-left: 20px;
+    }
+
+}
+
+/********************************************************/
+/* sm devices **********************************/
+/********************************************************/
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    form .name input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+}
