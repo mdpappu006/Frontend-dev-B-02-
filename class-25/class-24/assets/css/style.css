@@ -1,0 +1,119 @@
+/* 
+    section One css Start
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    overflow: hidden;
+}
+
+.container:first-child{
+    border-bottom: 10px solid #B8D32D;
+}
+
+.service-left, .service-right {
+    width: 50%;
+    height: 454px;
+}
+
+.service-left {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.service-left:before {
+    content: "";
+    width: 80%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #042352;
+    position: absolute;
+}
+
+.service-left:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #042352;
+    position: absolute;
+    z-index: 0;
+    transform: skew(10deg, 0deg);
+}
+
+.service-wrapper {
+    width: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+.service-right img {
+    width: 1010px;
+    height: 100%;
+    position: relative;
+    left: -47px;
+    z-index: -1;
+}
+
+.service-wrapper h2, .service-wrapper p, .service-wrapper button{
+    color: #fff;
+}
+
+.service-wrapper h2{
+    color: #fff;
+    font-size: 40px;
+}
+
+.service-wrapper p {
+    font-size: 18px;
+    width: 75%;
+}
+
+.service-wrapper button {
+    border: none;
+    background-color: #B9D331;
+    padding: 13px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    color: #090909;
+    font-size: 15px;
+    margin-top: 15px;
+    width: 160px;
+}
+
+/* 
+    section One css End
+*/
+
+
+/* 
+    section Two css End
+*/
+
+.section2 .service-left:after {
+    transform: skew(10deg);
+}
+
+.section2 .service-left:before {
+    right: -80px;
+    right: -80px;
+    left: inherit;
+
+}
+
+.section2 .service-right img {
+    width: 1190px;
+    left: 0;
+}
