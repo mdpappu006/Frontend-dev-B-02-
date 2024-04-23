@@ -1,0 +1,59 @@
+
+
+body{
+    background: #EBF5FF;
+}
+
+.slider img{
+    width: 100%;
+}
+
+.form h2 {
+    margin-top: 40px;
+    font-size: 40px;
+    color: #3153C9;
+}
+
+form label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.fname input, .lname input, .firstname input, .text-area textarea {
+    width: 100%;
+    border: 1px solid #727272;
+    padding: 10px 0;
+    border-radius: 5px;
+    background: transparent;
+    padding-left: 15px;
+}
+
+.gender b {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.gender label {
+    display: inline-block;
+}
+
+.text-area textarea {
+    height: 150px;
+}
+
+.submit-btn input {
+    margin-top: 25px;
+    background: #3153C9;
+    border-radius: 5px;
+    padding: 10px 35px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.container{
+    width: 800px;
+}
