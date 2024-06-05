@@ -1,0 +1,63 @@
+
+
+.video-left img{
+    width: 100%;
+    padding-right: 125px;
+}
+
+
+.vidoe-play {
+    background: #2ECC71;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50% -50%);
+    transform: translate(-75%, 170%);
+}
+
+.fa-play{
+    color: #fff;
+}
+
+/* Video Right Section */
+
+.video-right{
+    width: 750px;
+}
+
+.video-right p{
+    color: #939393;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+/* Fontawesome CSS */
+
+.fa-check{
+    color: #2ECC71;
+    font-size: 20px;
+}
+
+.list-item{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list-item li{
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.list-item li i{
+    padding-right: 15px;
+    font-size: 16px;
+}

@@ -1,0 +1,40 @@
+.choose-title h2{
+    font-weight: 700;
+}
+
+.choose-title span{
+    background-color: #FF8100;
+    width: 100px;
+    height: 4px;
+    content: "";
+    position: absolute;
+    transform: translate(-50px, 0px);
+}
+
+.choose-title span b {
+    background-color: #060606;
+    width: 30px;
+    height: 4px;
+    content: "";
+    position: absolute;
+    transform: translate(-15px, 0px);
+}
+
+.choose-title p{
+    padding-top: 15px;
+}
+
+.item-content h4{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    .item-content p br{
+        display: none;
+    }
+    
+  }
+  
